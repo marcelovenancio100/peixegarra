@@ -34,3 +34,7 @@ def valida_cpf(cpf):
         return True
     else:
         return False
+
+
+if __name__ == "__main__":
+    print(valida_cpf('111.111.111-11'))
